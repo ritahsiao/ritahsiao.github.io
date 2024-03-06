@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>平面圖</title>
+    <style>
+		body {
+            background-color: #FFFFFF; /* 设置背景颜色为浅蓝色 */
+        }
+        /* CSS样式 */
+        img {
+            max-width: 50%; /* 图片最大宽度为父元素的50% */
+            height: auto; /* 让高度自适应，保持宽高比 */
+            display: block; /* 将图片转换为块级元素，以便居中 */
+            margin: 0 auto; /* 设置左右外边距为auto，实现水平居中 */
+        }
+    </style>
+</head>
+<body>
+    <h1>台北101 B1平面圖(例)</h1>
+    <div style="text-align: center;">
+        <img src="demo3.png" alt="图片描述" usemap="#image-map">
+    </div>
+
+    <map name="image-map">
+        <!-- 第一个链接区域 -->
+        <area shape="rect" coords="105,110,190,210" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/4d0d6657-bf2e-4cab-8001-2a7617c2e962" alt="kangol">
+        <!-- 第二个链接区域 -->
+        <area shape="rect" coords="105,290,190,390" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/b20220223001-Crocs" alt="crocs">
+        <area shape="rect" coords="105,470,190,570" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/37c3723e-8fa8-4850-a68d-43d800e891cf" alt="CK">
+		<area shape="rect" coords="105,660,190,760" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/40feb63d-3ad6-4873-abf9-fe24a15f1f01" alt="adidas">
+		<area shape="rect" coords="255,760,340,860" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/b20220804001-NB-GREY-Image-Main-Store" alt="NB">
+		<area shape="rect" coords="430,760,515,860" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/366815ca-a292-4fa7-a714-97cb55609606" alt="MLB">
+		<area shape="rect" coords="580,660,665,760" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/2cc7aaa6-d4ed-4d0b-884b-758f768eec0a" alt="nike">
+		<area shape="rect" coords="580,470,665,570" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/b20210415001-THE-NORTH-FACE-Taipei-101-store" alt="TNF">
+		<area shape="rect" coords="580,290,665,390" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/d89bdd36-5752-4158-9af3-e12758656b8f" alt="roots">
+		<area shape="rect" coords="580,110,665,210" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/b20211207001-PORTER-INTERNATIONAL--12-16-OPEN-" alt="porter">
+		<area shape="rect" coords="255,20,335,120" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/b20200817001-Aesop" alt="aesop">
+		<area shape="rect" coords="430,20,510,120" href="https://www.taipei-101.com.tw/tw/shopping/brandsearch/6be569b7-514c-45b5-b997-73f982b62d31" alt="FM">
+    </map>
+</body>
+</html>
